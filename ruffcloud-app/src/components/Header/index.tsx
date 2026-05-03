@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-
+//import Loading from "../Loading";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -88,6 +88,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export default function Nav() {
   return (
+
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
