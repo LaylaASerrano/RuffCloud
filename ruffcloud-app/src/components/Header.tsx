@@ -9,7 +9,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "../ui/navigation-menu"
+} from "./ui/navigation-menu"
 
 function ListItem({
   title,
